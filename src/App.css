@@ -33,8 +33,19 @@
   align-content: center;
 }
 
-tfoot{
+.footer{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
+  width: 100%;
+  padding-left: 3rem;
+}
+
+button{
+  width: 4rem;
+  padding: 0.5rem;
+  background-color: green;
+  border-radius: 6px;
+  color: #f2f2f2;
+
 }

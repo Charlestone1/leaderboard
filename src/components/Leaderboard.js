@@ -51,12 +51,9 @@ function Leaderboard() {
             )
         })}
         </tbody>
-        <div>
+        <div className="footer">
           <button onClick={reverseArray}>
             Sort
-          </button>
-          <button>
-            Show More
           </button>
         </div>
       </table>
